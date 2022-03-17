@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+
+        android:background="#0054ec"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="레이블뷰/TEST/테스트"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+
+        android:background="#0054ec"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="레이블뷰/TEST/테스트"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#ece9d8"
+
+            android:layout_margin="20dp"
+
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+
+            android:src="@drawable/img1"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

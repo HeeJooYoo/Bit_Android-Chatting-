@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.app02event">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App02event">
+        <!-- <activity android:name=".EventBaseGetSet"-->
+        <!--<activity android:name=".Event01CallBackMethod"-->
+        <!--<activity android:name=".Event02ListenerImpl"-->
+        <!--<activity android:name=".Event03ActivityListenerImpl"-->
+        <!--<activity android:name=".Event02ListenerImplInnerClass01"-->
+        <!--<activity android:name=".Event02ListenerImplInnerClass02"-->
+        <!--<activity android:name=".Event02ListenerImplInnerClass03"-->
+        <!--<activity android:name=".Event10OnClickListenerETC"-->
+        <!--<activity android:name=".Event11OnClickListenerETC"-->
+        <activity android:name=".Event12OnLongClickListenerETC"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+</manifest>

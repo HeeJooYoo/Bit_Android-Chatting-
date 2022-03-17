@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:padding="@dimen/layout_padding">
+
+    <android.widget.Button
+        android:id="@+id/button01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:background="@color/color_black"
+
+        android:textColor="@color/color_blue"
+
+        android:textSize="20sp"
+        android:text="1번 Button"
+        />
+
+    <android.widget.Button
+        android:id="@+id/button02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button01"
+        android:gravity="center"
+
+        android:layout_marginTop="@dimen/view_layout_margin"
+
+        android:background="@color/color_ltgray"
+        android:textColor="@color/color_white"
+
+        android:textSize="20sp"
+        android:text="2 번 버튼" />
+
+    <android.widget.Button
+        android:id="@+id/button03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+
+        android:layout_marginTop="@dimen/view_layout_margin"
+
+        android:background="@color/color_yellow"
+        android:textColor="@color/color_black"
+
+        android:textSize="20sp"
+        android:text="Event 처리 3 번 버튼" />
+
+</RelativeLayout>
+
+
