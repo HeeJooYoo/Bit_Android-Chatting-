@@ -8,7 +8,7 @@ Java8, Tomcat 7, eclipse, Android Studio
 
 
 <h3>다중 접속하면 안되는 문제점</h3>
-<b>ServerApp01.java and ServerApp02.java </br>
+<b>ServerApp01.java and ServerApp02.java </b> </br>
 - client와 server가 통신할 때 accept를 이미 한 상태에서 무한루프를 계속 돌면서 readLine을 읽기 때문에 새로운 client가 접속해도 이미 무한루프에 빠져있고 accept가 안되었기 때문에 server에 접근할 수 없다. </br>
 - 이를 해결하기 위해서 Thread가 필요, client가 접속할 때마다 accept해주는 Thread를 생성해준다. </br>
 - web의 경우 request, response하는 순간 Thread를 없애주지만, 상태유지 기술이 필요하다. </br>
